@@ -22,4 +22,8 @@ public class Panda implements Animal {
 		return "Pandemonium";
 	}
 
+	public String getOwner() {
+		return "Olof";
+	}
+
 }
