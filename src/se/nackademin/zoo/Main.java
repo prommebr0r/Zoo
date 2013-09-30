@@ -10,6 +10,7 @@ public class Main {
 		Zebra zebra = new Zebra(4, 12, "Zebran zyber");
 		
 		Presentation press = new Presentation();
+		//lol
 		press.presentation(panda.getTitle(), panda.age(), panda.getRawr(), panda.getName(), panda.legs());
 		press.presentation(imp.getTitle(), imp.age(), imp.getRawr(), imp.getName(), imp.legs());
 		press.presentation(lejon.getTitle(), lejon.age(), lejon.getRawr(), lejon.getName(), lejon.legs());
