@@ -21,4 +21,7 @@ public class Lejon implements Animal{
 	public String getName() {
 		return "Simba";
 	}
+	public String getOwner(){
+		return "Mattias kvick";
+	}
 }

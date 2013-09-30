@@ -23,7 +23,7 @@ public class Panda implements Animal {
 	}
 
 	public String getOwner() {
-		return "Olof";
+		return "Olof Berg";
 	}
 
 }
