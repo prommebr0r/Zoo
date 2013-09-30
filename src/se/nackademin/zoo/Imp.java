@@ -30,6 +30,11 @@ public class Imp implements Animal {
 	public String getName() {
 		// TODO Auto-generated method stub
 		return ("Bob");
+		
+	}
+	
+	public String getOwner() {
+		return ("Niclas Hjalmarsson");
 	}
 	
 	
