@@ -3,7 +3,7 @@ package se.nackademin.zoo;
 public class Crocodile implements Animal {
 
 	public int legs() {
-
+//lol
 		return 4;
 	}
 

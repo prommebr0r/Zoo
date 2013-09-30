@@ -4,7 +4,7 @@ public class BananFluga implements Animal {
 	
 	private String owner = "Carl Ryttarson";
 	
-
+//lol
 	@Override
 	public int legs() {
 		return 6;

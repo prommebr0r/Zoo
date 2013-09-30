@@ -17,7 +17,7 @@ public class Panda implements Animal {
 	public int age() {
 		return 8;
 	}
-
+//lol
 	public String getName() {
 		return "Pandemonium";
 	}

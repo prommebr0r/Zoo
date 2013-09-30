@@ -2,7 +2,7 @@ package se.nackademin.zoo;
 
 public interface Animal {
 	
-	//This is your life from now on!
+	//This is your life from now on! lol
 	
 	public int legs();
 	public String getTitle();

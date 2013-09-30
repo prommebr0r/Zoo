@@ -18,4 +18,4 @@ public class Main {
 		press.presentation(zebra.getTitle(), zebra.age(), zebra.getRawr(), zebra.getName(), zebra.legs(), zebra.getOwner());
 		press.presentation(croc.getTitle(), croc.age(), croc.getRawr(), croc.getName(), croc.legs(), croc.getOwner());
 	}
-}
+}//lol

@@ -9,7 +9,7 @@ public class Lejon implements Animal{
 	public String getTitle() {
 		return "Lejon";
 	}
-
+//lol
 	public String getRawr() {
 		return "RAAAAAAAAAAR";
 	}

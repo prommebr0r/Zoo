@@ -7,7 +7,7 @@ public class Imp implements Animal {
 		// TODO Auto-generated method stub
 		return 2;
 	}
-
+//lol
 	@Override
 	public String getTitle() {
 		// TODO Auto-generated method stub

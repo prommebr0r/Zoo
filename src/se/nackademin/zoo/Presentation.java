@@ -6,3 +6,4 @@ public class Presentation {
 		System.out.println("I am a " + animalname + ", I have " + legs + " legs and my name is " + name + " and i sound like " + roar + ". My owners name is " + OwnerName);
 	}
 }
+//lol
