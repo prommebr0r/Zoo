@@ -1,24 +1,34 @@
 package se.nackademin.zoo;
 
 public class Lejon implements Animal{
+	private int legs, age;
+	private String name, rawr, title;
 
+	public Lejon() {
+		this.legs = 4;
+		this.age = 6;
+		this.name = "Simba";
+		this.rawr = "RAAAAAAAAAAR";
+		this.title = "Lejon";
+	}
+	
 	public int legs() {
-		return 4;
+		return legs;
 	}
 
 	public String getTitle() {
-		return "Lejon";
+		return title;
 	}
 
 	public String getRawr() {
-		return "RAAAAAAAAAAR";
+		return rawr;
 	}
 
 	public int age() {
-		return 6;
+		return age;
 	}
 
 	public String getName() {
-		return "Simba";
+		return name;
 	}
 }

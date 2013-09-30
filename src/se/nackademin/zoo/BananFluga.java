@@ -2,33 +2,34 @@ package se.nackademin.zoo;
 
 public class BananFluga implements Animal {
 
-	@Override
+	private int legs, age;
+	private String name, rawr, title;
+
+	public BananFluga() {
+		this.legs = 6;
+		this.age = 1;
+		this.name = "Berit Bananfluga";
+		this.rawr = "Bzzzzzzzzzzzzzzzzzzzz";
+		this.title = "Bananfluga";
+	}
+	
 	public int legs() {
-		return 6;
+		return legs;
 	}
 
-	@Override
 	public String getTitle() {
-		// TODO Auto-generated method stub
-		return "Bananfluga";
+		return title;
 	}
 
-	@Override
 	public String getRawr() {
-		// TODO Auto-generated method stub
-		return "Bzzzzzzzzzzzzzzzzzzzz";
+		return rawr;
 	}
 
-	@Override
 	public int age() {
-		// TODO Auto-generated method stub
-		return 1;
+		return age;
 	}
 
-	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return "Berit Bananfluga";
+		return name;
 	}
-
 }
