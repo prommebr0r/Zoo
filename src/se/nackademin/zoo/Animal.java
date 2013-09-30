@@ -4,4 +4,5 @@ public class Animal {
 	// En Animal Klass! :)
 	//lol
 	// En till lol
+	//halllå!
 }
