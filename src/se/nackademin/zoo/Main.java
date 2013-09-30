@@ -9,6 +9,10 @@ public class Main {
 		Crocodile croc = new Crocodile();
 		Zebra zebra = new Zebra();
 		
+		System.out.println("Hello and welcome to the digital zoo! We have a lot of diffrent animal species and they can talk!");
+		System.out.println("Lets here what they have to say!");
+		System.out.println("");
+		
 		Presentation press = new Presentation();
 		//lol xd
 		press.presentation(panda.getTitle(), panda.age(), panda.getRawr(), panda.getName(), panda.legs(), panda.getOwner());
