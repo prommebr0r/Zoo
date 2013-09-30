@@ -9,7 +9,7 @@ public class Crocodile implements Animal {
 
 	public String getTitle() {
 
-		return "I'm Reptile";
+		return "Reptile";
 	}
 
 	public String getRawr() {
