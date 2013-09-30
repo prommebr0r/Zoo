@@ -9,4 +9,6 @@ public interface Animal {
 	public String getRawr();
 	public int age();
 	public String getName();
+	
+
 }
