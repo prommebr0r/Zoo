@@ -8,7 +8,7 @@ public class Zebra implements Animal {
 		this.legs = 4;
 		this.age = 42;
 		this.name = "Zimbram";
-		this.rawr = "Raawr";
+		this.rawr = "a horse";
 		this.title = "Zebra";
 		this.owner = "Olle Svensson";
 	}
