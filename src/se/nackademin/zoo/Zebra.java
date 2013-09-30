@@ -2,37 +2,39 @@ package se.nackademin.zoo;
 
 public class Zebra implements Animal {
 	private int legs, age;
-	private String name;
+	private String name, rawr, title;
 
-	public Zebra(int legs, int age, String name) {
-		this.legs = legs;
-		this.age = age;
-		this.name = name;
+	public Zebra() {
+		this.legs = 4;
+		this.age = 42;
+		this.name = "Zimbram";
+		this.rawr = "Raawr";
+		this.title = "Häst";
 	}
 
 	@Override
 	public int legs() {
-		return 0;
+		return legs;
 	}
 
 	@Override
 	public String getTitle() {
-		return null;
+		return title;
 	}
 
 	@Override
 	public String getRawr() {
-		return null;
+		return rawr;
 	}
 
 	@Override
 	public int age() {
-		return 0;
+		return age;
 	}
 
 	@Override
 	public String getName() {
-		return null;
+		return name;
 	}
 
 }
