@@ -2,34 +2,33 @@ package se.nackademin.zoo;
 
 public class Crocodile implements Animal {
 
-	private int legs, age;
-	private String name, rawr, title;
-
-	public Crocodile() {
-		this.legs = 4;
-		this.age = 47;
-		this.name = "Crok";
-		this.rawr = "argh!";
-		this.title = "I'm Reptile";
-	}
 	
 	public int legs() {
-		return legs;
+		
+		return 4;
 	}
-
 	public String getTitle() {
-		return title;
+		
+		return "I'm Reptile";
 	}
 
+	
 	public String getRawr() {
-		return rawr;
+		
+		return "argh!";
 	}
 
+	
 	public int age() {
-		return age;
+		
+		return 47;
 	}
 
+	
 	public String getName() {
-		return name;
+		
+		return "Crok";
 	}
+	
+
 }

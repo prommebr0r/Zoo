@@ -2,34 +2,36 @@ package se.nackademin.zoo;
 
 public class Imp implements Animal {
 
-	private int legs, age;
-	private String name, rawr, title;
+	@Override
+	public int legs() {
+		// TODO Auto-generated method stub
+		return 2;
+	}
 
-	public Imp() {
-		this.legs = 2;
-		this.age = 37;
-		this.name = "Bob";
-		this.rawr = "Meh";
-		this.title = "Imp";
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return ("Imp");
+	}
+
+	@Override
+	public String getRawr() {
+		// TODO Auto-generated method stub
+		return ("Meh");
+	}
+
+	@Override
+	public int age() {
+		// TODO Auto-generated method stub
+		return 37;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return ("Bob");
 	}
 	
-	public int legs() {
-		return legs;
-	}
+	
 
-	public String getTitle() {
-		return title;
-	}
-
-	public String getRawr() {
-		return rawr;
-	}
-
-	public int age() {
-		return age;
-	}
-
-	public String getName() {
-		return name;
-	}
 }

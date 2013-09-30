@@ -7,7 +7,7 @@ public class Main {
 		Lejon lejon = new Lejon();
 		BananFluga bananfluga = new BananFluga();
 		Crocodile croc = new Crocodile();
-		Zebra zebra = new Zebra();
+		Zebra zebra = new Zebra(4, 12, "Zebran zyber");
 		
 		Presentation press = new Presentation();
 		//lol

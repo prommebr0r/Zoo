@@ -2,38 +2,24 @@ package se.nackademin.zoo;
 
 public class Panda implements Animal {
 
-	private int legs, age;
-	private String name, rawr, title;
-
-	public Panda() {
-		this.legs = 4;
-		this.age = 8;
-		this.name = "Pandemonium";
-		this.rawr = "ROOOOAR!";
-		this.title = "Panda";
-	}
-	
 	public int legs() {
-		return legs;
+		return 4;
 	}
 
 	public String getTitle() {
-		return title;
+		return "Panda";
 	}
 
 	public String getRawr() {
-		return rawr;
+		return "ROOOOAR!";
 	}
 
 	public int age() {
-		return age;
+		return 8;
 	}
 
 	public String getName() {
-		return name;
+		return "Pandemonium";
 	}
 
-	public String getOwner() {
-		return "Olof";
-	}
 }
