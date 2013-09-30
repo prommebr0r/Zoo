@@ -1,6 +1,9 @@
 package se.nackademin.zoo;
 
 public class BananFluga implements Animal {
+	
+	private String owner = "Carl Ryttarson";
+	
 
 	@Override
 	public int legs() {
@@ -29,6 +32,12 @@ public class BananFluga implements Animal {
 	public String getName() {
 		// TODO Auto-generated method stub
 		return "Berit Bananfluga";
+	}
+
+	@Override
+	public String getOwner() {
+		// TODO Auto-generated method stub
+		return this.owner;
 	}
 
 }
