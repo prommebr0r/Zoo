@@ -1,8 +1,7 @@
 package se.nackademin.zoo;
 
 public class Animal {
-	// En Animal Klass! :)
-	//lol
-	// En till lol
-	//halllå!
+	public void Eat(){
+		System.out.println("I am eating! :)");
+	}
 }
