@@ -3,15 +3,12 @@ package se.nackademin.zoo;
 public class Crocodile implements Animal {
 
 	public int legs() {
-//lol
+
 		return 4;
 	}
 
 	public String getTitle() {
-<<<<<<< HEAD
 
-		return "Reptile";
-=======
 		String s = ""
 				+"\r            .-._   _ _ _ _ _ _ _ _"
 				+"\r .-''-.__.-'00  '-' ' ' ' ' ' ' ' '-."
@@ -22,9 +19,8 @@ public class Crocodile implements Animal {
 				+"\r                             (((-'  .'   "
 				+"\r                           _____..'  .'"
 				+"\r                          '-._____.-'";				
-   
-		return "I'm Reptile and look like this: "+s;
->>>>>>> ok
+   		return "I'm Reptile and look like this: "+s;
+
 	}
 
 	public String getRawr() {
